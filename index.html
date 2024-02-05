@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>    
+    <script src="index.js"></script>
+    <title>MyCatAndDog</title>
+</head>
+
+<body>
+    <div id="home">
+        <nav class="navbar">  
+            <div class="menubar">
+                <ul class="list">
+                    <li class="list-items"><a class="active" href="#">HOME</a></li>
+                    <li class="list-items"><a onclick="goKANDP()">Some tips for starter</a></li>
+                    <li class="list-items"><a onclick="goTIPS()">Other tips</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class ="main">
+            <div class="centered">
+                <img src="pics/profile.jpg">
+                <p style="color: #EBE8CC; font-family: 'indie Flower'; font-size: 3.3em; ">WELCOME TO MY PARADISE</p>
+                <p1 style="color:#EBE8CC; font-family: 'indie Flower'; font-size: 1.1em">
+                ✦ This Web is dedicated to content related to my pets! 
+                U can see 4 buttons below. Each button leads to different stories, and U can explore them on your own! 
+                I also understand that the first time owning a pet can be challenging for everyone, so I've provided some tips for you guys as well~ </p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button class="button cat" onclick="goCAT()"><i class="fa fa-cat" style="font-size: larger"></i>
+                        MYCATS
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="button dog" onclick="goDOG()"><i class="fa fa-dog" style="font-size: larger"></i>
+                        MYDOGS
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="button other" onclick="goOTHER()"><i class="fa fa-heart" style="font-size: larger"></i>
+                        OTHER...
+                    </button>
+                </div>                  
+                <div class="column">
+                    <button class="button me" onclick="goME()"><i class="fa fa-ghost" style="font-size: larger"></i>
+                        ABOUTME
+                    </button>
+                </div>                  
+            </div>
+        </div>
+    </div>
+
+    <div id="mycats">
+        <div class="main1">     
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <h>🌟BOOM! Actually, I have 3 cats! Here are our stories!! :D</h>
+            <div class="coffee">
+                <h1>✨COFFEE</h1>
+                <div class="pics1">
+                    <img src="pics/coffee1.jpg">
+                    <img src="pics/coffee2.jpg">
+                    <img src="pics/coffee3.jpg">
+                    <img src="pics/coffee4.jpg">
+                    <img src="pics/coffee5.jpg">
+                    <img src="pics/coffee6.jpg">
+                    <img src="pics/coffee7.jpg">
+                    <img src="pics/coffee8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2018/10/15<br>
+                    ✦WE MEET ON 2019/1/12<br>
+                    ✦AN ELEGANT PRINCESS<br>
+                    💟She is my first cat, i really reallyyyyyyy love her!!</p2>
+                </div>
+            </div>
+
+            <div class="lucky">
+                <h1>✨LUCKY</h1>
+                <div class="pics1">
+                    <img src="pics/lucky1.jpg">
+                    <img src="pics/lucky2.jpg">
+                    <img src="pics/lucky3.jpg">
+                    <img src="pics/lucky4.jpg">
+                    <img src="pics/lucky5.jpg">
+                    <img src="pics/lucky6.jpg">
+                    <img src="pics/lucky7.jpg">
+                    <img src="pics/lucky8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2019/3/11<br>
+                    ✦WE MEET ON 2019/7/11<br>
+                    ✦A GENTLE PRINCE<br>
+                    💟</p2></div>
+            </div>
+            
+            <div class="GOGO">
+                <h1>✨GOGO</h1>
+                <div class="pics1">
+                    <img src="pics/gogo1.jpg">
+                    <img src="pics/gogo2.jpg">
+                    <img src="pics/gogo3.jpg">
+                    <img src="pics/gogo4.jpg">
+                    <img src="pics/gogo5.jpg">
+                    <img src="pics/gogo6.jpg">
+                    <img src="pics/gogo7.jpg">
+                    <img src="pics/gogo8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2020/4/6<br>
+                    ✦WE MEET ON 2020/4/6<br>
+                    ✦THE PRINCESS'S SILLY SON<br>
+                    💟</p2></div>
+            </div>
+            <button id="back1" onclick="goHOME()">GO BACK!</button>         
+        </div>
+    </div>
+
+
+
+    <div id="mydogs">
+        <div class="main1">  
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <h>🌟Boom! Another surprise!! I also have 2 dogs! Enjoy the stories!! :D</h>
+            <div class="cola">
+                <h1>✨COLA</h1>
+                <div class="pics1">
+                    <img src="pics/cola1.jpg">
+                    <img src="pics/cola2.jpg">
+                    <img src="pics/cola3.jpg">
+                    <img src="pics/cola4.jpg">
+                    <img src="pics/cola5.jpg">
+                    <img src="pics/cola6.jpg">
+                    <img src="pics/cola7.jpg">
+                    <img src="pics/cola8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2019/1/10<br>
+                    ✦WE MEET ON 2019/2/28<br>
+                    ✦AN ENERGETIC BOY<br>
+                    💟</p2></div>
+            </div>
+
+            <div class="douzi">
+                <h1>✨DOUZI</h1>
+                <div class="pics1">
+                    <img src="pics/douzi1.jpg">
+                    <img src="pics/douzi2.jpg">
+                    <img src="pics/douzi3.jpg">
+                    <img src="pics/douzi4.jpg">
+                    <img src="pics/douzi5.jpg">
+                    <img src="pics/douzi6.jpg">
+                    <img src="pics/douzi7.jpg">
+                    <img src="pics/douzi8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2019/7/12<br>
+                    ✦WE MEET ON 2019/9/20<br>
+                    ✦A CLEVER GRIL<br>
+                    💟</p2></div>
+            </div>
+            <button id="back1" onclick="goHOME()">GO BACK!</button>     
+        </div>    
+    </div>
+
+    <div id="other">
+        <div class="main1">  
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <h>🌟Here are the cats i met in my life :D</h>
+            <!-- <div class="facai">
+                <h1>✨FACAI</h1>
+                <div class="pics1">
+                    <img src="pics/coffee1.jpg">
+                    <img src="pics/coffee2.jpg">
+                    <img src="pics/coffee3.jpg">
+                    <img src="pics/coffee4.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2019/1/12<br>
+                    ✦PIGGY CATTTT<br>
+                    💟My friend's cat</p2>
+                </div>
+            </div>
+
+            <div class="huihui">
+                <h1>✨HUIHUI</h1>
+                <div class="pics1">
+                    <img src="pics/lucky1.jpg">
+                    <img src="pics/lucky2.jpg">
+                    <img src="pics/lucky3.jpg">
+                    <img src="pics/lucky4.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2019/7/11<br>
+                    ✦A GENTLE PRINCE<br>
+                    💟</p2></div>
+            </div>
+            
+            <div class="meidi">
+                <h1>✨MEIDI</h1>
+                <div class="pics1">
+                    <img src="pics/gogo1.jpg">
+                    <img src="pics/gogo2.jpg">
+                    <img src="pics/gogo3.jpg">
+                    <img src="pics/gogo4.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2020/4/6<br>
+                    ✦THE PRINCESS'S SILLY SON<br>
+                    💟</p2></div>
+            </div>
+
+            <div class="niannian">
+                <h1>✨NIANNIAN</h1>
+                <div class="pics1">
+                    <img src="pics/gogo1.jpg">
+                    <img src="pics/gogo2.jpg">
+                    <img src="pics/gogo3.jpg">
+                    <img src="pics/gogo4.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2020/4/6<br>
+                    ✦THE PRINCESS'S SILLY SON<br>
+                    💟</p2></div>
+            </div> -->
+
+            <div class="zhumi">
+                <h1>✨PIGGY</h1>
+                <div class="pics1">
+                    <img src="pics/zhumi1.jpg">
+                    <img src="pics/zhumi2.jpg">
+                    <img src="pics/zhumi3.jpg">
+                    <img src="pics/zhumi4.jpg">
+                    <img src="pics/zhumi5.jpg">
+                    <img src="pics/zhumi6.jpg">
+                    <img src="pics/zhumi7.jpg">
+                    <img src="pics/zhumi8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2020/11/26<br>
+                    ✦IDK<br>
+                    💟</p2></div>
+            </div>
+
+            <div class="maymay">
+                <h1>🌙MAYMAY</h1>
+                <div class="pics1">
+                    <img src="pics/maymay1.jpg">
+                    <img src="pics/maymay2.jpg">
+                    <img src="pics/maymay3.jpg">
+                    <img src="pics/maymay4.jpg">
+                    <img src="pics/maymay5.jpg">
+                    <img src="pics/maymay6.jpg">
+                    <img src="pics/maymay7.jpg">
+                    <img src="pics/maymay8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦BTH: 2022/4/22<br>
+                    ✦WE MEET ON 2023/5/2<br>
+                    ✦THE MOST ADORABLE BABY IN THE WORLD<br>
+                    💟</p2></div>
+            </div>
+
+            <div class="naicha">
+                <h1>✨NAICHA</h1>
+                <div class="pics1">
+                    <img src="pics/naicha1.jpg">
+                    <img src="pics/naicha2.jpg">
+                    <img src="pics/naicha3.jpg">
+                    <img src="pics/naicha4.jpg">
+                    <img src="pics/naicha5.jpg">
+                    <img src="pics/naicha6.jpg">
+                    <img src="pics/naicha7.jpg">
+                    <img src="pics/naicha8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2023/5/22<br>
+                    ✦SCAREDY-CAT<br>
+                    💟</p2></div>
+            </div>
+
+            <div class="fufu">
+                <h1>✨FUFU</h1>
+                <div class="pics1">
+                    <img src="pics/fufu1.jpg">
+                    <img src="pics/fufu2.jpg">
+                    <img src="pics/fufu3.jpg">
+                    <img src="pics/fufu4.jpg">
+                    <img src="pics/fufu5.jpg">
+                    <img src="pics/fufu6.jpg">
+                    <img src="pics/fufu7.jpg">
+                    <img src="pics/fufu8.jpg">
+                </div>
+                <div class="text"><p2>
+                    <br>
+                    ✦WE MEET ON 2023/6/5<br>
+                    ✦KEEPING EATINGGGGG CAT<br>
+                    💟</p2></div>
+            </div>
+
+            <h>🌟TO BE CONTINUED ʕ•́ᴥ•̀ʔっ</h>
+            <button id="back1" onclick="goHOME()">GO BACK!</button>
+        </div>
+    </div>
+
+
+
+    <div id="aboutme">
+        <div class="main1">  
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <div class="text"><h>
+            💘 I am an international student at the University of Ottawa in Canada, 
+            and I'm from Tianjin! The original intention of creating this website was to document 
+            all the small animals I encounter in my life, 
+            as I believe they are a very important part of my life.</h>   
+            <button id="back1" onclick="goHOME()">GO BACK!</button>
+        </div>
+    </div>
+
+
+
+    <div id="kandp">
+        <div class="main1">  
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <div class="text"><h>
+                💌 I know that getting a pet for the first time can be a big challenge for a newbie, 
+                but the joy pets bring us always helps us overcome these difficulties. 
+                Below is a little introduction to pets of different age groups, hoping it can help you~<br>
+                <br>
+                ✨1st KITTEN</h><br><br>
+                <p2>
+                    【One month of age】<br>
+                    1. Breastmilk is the mainstay for the first period or goat's milk formula is used instead.<br>
+                    2. Pay attention to the cold and warmth, cold weather can be homemade cat nest, 
+                    prepare heating lamp or electric blanket, or empty bottle with some hot water on the side.<br>
+                    3. Try not to go out to avoid stress and infection.<br>
+                    4. Do not feed human food.<br>
+                    5. When the milk teeth come out, you can start to wean the cat slowly 
+                    and gradually transition from liquid to semi-solid food.<br>                
+                </p2><br>
+                <p2>
+                    【2 months old】<br>
+                    1. Transition from semi-solid food (soaked soft cat food) to hard food<br>
+                    2. Teach cats to go to the toilet and use cat litter.<br>
+                    3. Prepare to deworm the cat, full 6 weeks greater than 1 catty can do the first internal deworming, 
+                    the general frequency of 3 months / times<br>
+                    4. Feed regularly and develop good eating habits.<br>
+                    5. Do not bathe the kitten as much as possible<br>
+                </p2><br>
+                <p2>
+                    【3 months old】<br>
+                    1. Staple food is cat food, goat milk powder can be used as nutritional supplements<br>
+                    2. At this time, the kitten's digestive system is still weak, in the process of switching to hard food, 
+                    more observation of the poop situation<br>
+                    3. You can eat 1-2 egg yolks per week to help hair growth.<br>
+                    4. Prepare the cat bag/air box, and the kitten can go to the hospital
+                    for the first vaccination of the cat triple vaccine (mandatory) after 2 months.<br>
+                    5. Deworming and vaccination should be done one week apart, 1 month/times.<br>
+                </p2><br>
+                <p2>
+                    【4 months old】<br>
+                    1. During the rapid growth period of the body, choose a cat food with high protein 
+                    and stable quality control to ensure adequate nutrition.<br>
+                    2. You can eat a small amount of boiled chicken breast for nutritional supplementation.<br>
+                    3. Be careful not to change the cat food frequently, and feed the cat regularly.<br>
+                    4. Prepare probiotics to prevent soft stools and diarrhea.<br>
+                    5. After 3 months, cat food does not need to be softened to avoid double rows of teeth, 
+                    and eating hard food will help in the tooth replacement stage.<br>
+                </p2><br>
+                <p2>
+                    【5 months old】<br>
+                    1. Canned food can be prepared to adjust the flavor of the cat to supplement water<br>
+                    2. At this stage, the cat will start to change its teeth, and the milk teeth may be swallowed by the cat, 
+                    so if you are lucky, you will be able to pick them up.<br>
+                    3. Cat's claws are itchy, so prepare cat scratching boards and cut nails regularly.<br>
+                    4. Put away fragile items at home to prevent your cat from breaking them. 
+                    Broken glass is difficult to clean thoroughly, and it is easy to stick into the cat's flesh pad. Flesh pads of cats<br>
+                </p2><br>
+                <p2>
+                    【6 months old】<br>
+                    1. After the end of tooth replacement, you can try to brush your cat's teeth and develop the habit of brushing, 
+                    which can effectively prevent oral diseases
+                    2. The cat is changing its coat at this time, so you can start combing the cat's hair.<br>
+                    3. Cats are very naughty and curious at this stage, 
+                    so you can interact with your cat more often and seal the windows to prevent accidents.<br>
+                </p2><br>
+                <p2>
+                    【7 months old】<br>
+                    1. This is the best time to train your cat<br>
+                    2. Freeze-dried food can be used for training and rewarding cats, as well as supplementing nutrition.<br>
+                    3. Don't give cats human food, and cats should not eat too much cold food.<br>
+                    4. Cats at this time sleep a lot and like to nap<br>
+                </p2><br>
+                <p2>
+                    【8 months old】<br>
+                    1. need to ensure that the cat's water intake, 
+                    if the cat does not like to drink water you can buy a water dispenser to try<br>
+                    2. This period of time, the cat's diet is relatively stable, weight loss is a normal phenomenon<br>
+                    3. Curious about everything, need positive guidance<br>
+                    4. Pay attention to the daily cleaning of the ears to avoid breeding bacteria<br>
+                </p2><br>
+                <p2>
+                    【9 months old】<br>
+                    1. Regularly groom your cat to avoid licking into the stomach and causing hairballs.<br>
+                    2. Start to chemically treat your cat's hair, try to plant cat grass which is cost-effective, 
+                    but if your cat doesn't like to eat it, you can buy cat grass tablets.<br>
+                    3. Try to eat less indigestible food and ensure daily water intake.<br>
+                    4. If aggressive behavior occurs, teach patiently<br>
+                </p2><br>                
+                <p2>
+                    【10 months old】<br>
+                    1. Give cats abundant space and keep their moods happy<br>
+                    2. Pay attention to correcting the cat's bad behavior<br>
+                    3. Let the cat exercise more, and control its weight<br>
+                    4. Regularly comb the cat's hair and bathe it, and pay attention to blow drying it thoroughly 
+                    after bathing to avoid catching a cold. Try to buy a slightly silent hair dryer, 
+                    otherwise the sound is too loud and will easily scare the cat and stress it.<br>
+                </p2><br> 
+                <p2>
+                    【11 months old】<br>
+                    1. During this period, the cat should have already started to come into heat<br>
+                    2. It is recommended not to let the female cat give birth too early, 
+                    because the young female cat at this time is not physically and psychologically ready to have a baby, 
+                    which is not good for health, and it is best to consider it after adulthood<br>
+                    3. It can exercise the cat's social skills<br>
+                    4. Canned food can also be arranged on a regular basis to increase water supplementation and avoid urinary diseases<br>
+                </p2><br> 
+                <p2>
+                    【one year old】<br>
+                    1. has entered adulthood, life physical has stabilized<br>
+                    2. Do not scold the cat for no reason, it will be counterproductive to the cat can not understand, 
+                    you need to guide the owner correctly<br>
+                    3. Use positive and correct training methods when training cats to cultivate their good habits.<br>
+                    4. After the cat is de-sexed, the cat's weight needs to be controlled to avoid overweight, 
+                    which is detrimental to its health.<br>
+                    5. Annual medical checkups can be conducted<br>
+                </p2><br><br>
+
+                <h>✨2nd PUPPY</h><br>
+                <p2>
+                    【One month of age】<br>
+                    0-2 weeks the dog is like a baby, need to take care of the mother to clean up feces, 
+                    drink breast milk to produce maternal antibodies. 
+                    2-4 weeks the dog began to open their eyes, began to slowly learn to walk, 
+                    and around the curiosity of the dog.<br>
+                </p2><br>
+                <p2>
+                    【2 months old】<br>
+                    Immunization can be started, four, six, eight can be chosen, 
+                    the first year of immunization needs to be three shots, each shot interval of 21 days!<br>
+                </p2><br>
+                <p2>
+                    【3 months old】<br>
+                    Entering the social learning stage, this is also the time to get familiar with the new environment to the new family, 
+                    you need to pay attention to the puppy's physical and psychological changes due to the change of environment.<br>
+                </p2><br>
+                <p2>
+                    【4 months old】<br>
+                    Rabies vaccine can be injected at this time, and it is also an awkward period for hair change.<br>
+                </p2><br>
+                <p2>
+                    【5-6 months old】<br>
+                    The baby's teeth changing period is here, like people, only change teeth once in a lifetime, 
+                    after the growth of 42 teeth Oh!<br>
+                </p2><br>
+                <p2>
+                    【7-8 months old】<br>
+                    It's time for dogs to reach the stage of sexual maturity, at this time, 
+                    they will have a strong interest in the opposite sex and like to make friends. 
+                    It is also a critical time for parents to choose whether to mate or neuter their fur babies. 
+                    Oral care is on the agenda!<br>
+                </p2><br>
+                <p2>
+                    【9-10 months old】<br>
+                    Gradually integrate into our big family, learn good habits such as going out to defecate, 
+                    make good friends and have high energy every day.<br>
+                </p2><br>
+                <p2>
+                    【11-12 months old】<br>
+                    Dogs are becoming adults and big kids, 
+                    this is the time when their bodies and minds are maturing and they start to pay attention to medical checkups.<br>
+                </p2><br>
+        </div>
+
+            <button id="back1" onclick="goHOME()">GO BACK!</button>
+        </div>
+    </div>
+
+
+    <div id="tips">
+        <div class="main1">  
+            <button id="back" onclick="goHOME()">GO BACK!</button>
+            <div class="text"><h>
+                💌 Here are some other tips!<br>
+                <br>
+            </h><br>
+            <p2>
+                【Oral Care】<br>
+                Oral care for pets can choose to brush teeth, teeth cleaning powder, mouthwash, teeth grinding snacks, etc. 
+                no matter which method must be adhered to, to ensure that your pet's dental health.<br>
+            </p2><br>
+            <p2>
+                【Immunization Vaccine】<br>
+                Different pets have different vaccination times, be sure to pay attention to the vaccination on time, 
+                if the vaccination period pets have come to your home, 
+                be sure to observe for two weeks to ensure that there is no problem with eating, 
+                drinking and defecating before immunization, to avoid the incubation period of viral diseases!<br>
+            </p2><br>
+            <p2>
+                【Rutting period】<br>
+                Sexually mature pets can be mated to produce offspring or sterilized to prevent future problems. 
+                Pets that are not sterilized will always be affected by the level of sex hormones, 
+                and girls stimulate the mammary glands as well as the uterus and ovaries, 
+                which can easily lead to reproductive system diseases. 
+                Boys are in heat and urinate all over the place and take over the territory to take mates, 
+                resulting in prostate enlargement and hyperplasia. Prostate enlargement and hyperplasia as well as fighting behaviors<br>
+            </p2><br>            
+            
+            <button id="back1" onclick="goHOME()">GO BACK!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
