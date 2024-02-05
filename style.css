@@ -16,7 +16,7 @@ body{
 /* body::-webkit-scrollbar{
     display: none;
 } */
-
+  
 
 body::-webkit-scrollbar {
     width: 0.7em;
@@ -245,9 +245,9 @@ p1{
     border:2px solid black;
 }
 
-.main1::-webkit-scrollbar{
-    display: none;
-}
+/* .main1::-webkit-scrollbar{
+    display: block;
+} */
 
 .pics1{
     float: left;
@@ -355,6 +355,7 @@ p2{
     background-color: #ffffff;
 }
 
-.main2::-webkit-scrollbar{
+/* .main2::-webkit-scrollbar{
     display: none;
-}
+} */
+
